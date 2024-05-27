@@ -236,7 +236,7 @@ img{
 	padding-top: 3%;
 	font-family: "Bungee", sans-serif;
 	-webkit-text-stroke: 1px #000; 
-	font-size: 3.5em;
+	font-size: 2.5em;
 }
 .mecanismo_n{
 	padding-top: 3%;
@@ -257,9 +257,7 @@ img{
 }
 
 .descripcion_mecanismo{
+	margin: 2% auto 2% auto;
 	width: 100%;
 	font-size: 2.5vh;
-	letter-spacing: 0.2em;
-	margin: auto;
-	padding-top: 2%;
 }

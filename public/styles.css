@@ -61,7 +61,7 @@ hr{
 	margin: auto;
 	letter-spacing: 0.2em;
 	align-content: center;
-	width: 80%;
+	width: 100%;
 }
 
 /************ SECTIONS ->*/
@@ -129,7 +129,7 @@ padding:2%;
 .educacion_ambiental_intro{
 	letter-spacing: 0.2em;
 	margin: auto auto 3% auto;
-	width: 80%;
+	width: 100%;
 	font-size: 2.5vh;
 }
 
@@ -171,7 +171,7 @@ img{
 }
 .concepto_descripcion{
 	margin: 2% auto 2% auto;
-	width: 80%;
+	width: 100%;
 }
 
 /************** ARTE AMBIENTAL*/
@@ -184,7 +184,7 @@ img{
 	animation: color_Change 2s linear infinite;
 }
 .arte_invitacion{
-	width: 80%;
+	width: 100%;
 	font-size: 2.5vh;
 	letter-spacing: 0.2em;
 	margin: auto;
@@ -219,14 +219,14 @@ img{
 
 .art_ejemplo_participacion{
 	margin:2% auto 2% auto;
-	width: 80%;
+	width: 100%;
 	font-family: "Bungee", sans-serif;
 	-webkit-text-stroke: 1px #000; 
 	font-size: 2.5em;
 	text-shadow: 1px #E0FBE2; 
 }
 .participacion_intro{
-	width: 80%;
+	width: 100%;
 	font-size: 2.5vh;
 	letter-spacing: 0.2em;
 	margin: auto;
@@ -257,7 +257,7 @@ img{
 }
 
 .descripcion_mecanismo{
-	width: 80%;
+	width: 100%;
 	font-size: 2.5vh;
 	letter-spacing: 0.2em;
 	margin: auto;

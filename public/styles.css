@@ -14,6 +14,7 @@
 
 /************ HEADER SECTION ->*/
 .udea{
+	width: 70%;
 	padding: 5px;
 }
  .first_section{
@@ -30,9 +31,9 @@
 }
 .ecocreativo{
 	-webkit-text-stroke: 1px #000; 
-	font-size: 3.5em;
+	font-size: 2.5em;
 	text-shadow: 1px #E0FBE2; 
-	animation: color_Change 2s linear infinite;
+	animation: color_Change 5s linear infinite;
 }
 
 @keyframes color_Change{
@@ -41,8 +42,11 @@
 	80% {color: #E0FBE2;}
 	100%{color:#ACE1AF}
 }
-/* DECORACION PAGINA PRINCIPAL */
-
+/********************* DECORACION PAGINA PRINCIPAL */
+.index_divs{
+	color: #000;
+	text-decoration: none;
+}
 .decoration_1{
 	width: 10%;
 	position: absolute;
@@ -73,7 +77,7 @@ h3{
 }
 .galeria:hover{
 
-	border-radius: 50%;
+	border-radius: 5%;
 padding:2%;
 	transform: scale(1.5, 1.5);
 	background-color:#E0FBE2; 
@@ -83,7 +87,7 @@ padding:2%;
 	transition: transform 0.5s ease; 
 }
 .educacion:hover{
-	border-radius: 50%;
+	border-radius: 5%;
 padding:2%;
 	transform: scale(1.5, 1.5);
 	background-color:#CAF4FF; 
@@ -94,7 +98,7 @@ padding:2%;
 }
 .talleres:hover{
 	padding:2%;
-	border-radius: 50%;
+	border-radius: 5%;
 	transform: scale(1.5, 1.5);
 	background-color:#ACE1AF; 
 }
@@ -104,7 +108,7 @@ padding:2%;
 }
 .participacion:hover{
 	padding:2%;
-	border-radius: 50%;
+	border-radius: 5%;
 	transform: scale(1.5, 1.5);
 	background-color:#E49BFF; 
 }
@@ -128,7 +132,7 @@ padding:2%;
 
 .educacion_ambiental_intro{
 	letter-spacing: 0.2em;
-	margin: auto auto 3% auto;
+	margin: auto auto 77px auto;
 	width: 100%;
 	font-size: 2.5vh;
 }
@@ -139,15 +143,15 @@ padding:2%;
 	-webkit-text-stroke: 1px #000; 
 	font-size: 3.5em;
 	text-shadow: 1px #E0FBE2; 
-	animation: color_Change 2s linear infinite;
+	animation: color_Change 5s linear infinite;
 }
 .concepto{
-	font-size: ;
-	padding-top: 3%;
+	padding-top: 2%;
+	font-size: 1.5em;
 	font-family: "Bungee", sans-serif;
 	-webkit-text-stroke: 1px #000; 
 	text-shadow: 1px #E0FBE2; 
-	animation: color_Change 2s linear infinite;
+	animation: color_Change 5s linear infinite;
 }
 .conceptos_section{
 	font-size: 2.5vh;
@@ -160,7 +164,6 @@ padding:2%;
 }
 h2{
 	font-family: "Bungee", sans-serif;
-	font-size: 1em;
 }
 img{
 	width: 25%;
@@ -170,18 +173,29 @@ img{
 	font-family: "Bungee", sans-serif;
 }
 .concepto_descripcion{
-	margin: 2% auto 2% auto;
+	text-align: center;
 	width: 100%;
+	padding-top: 30px;
+	margin-bottom: 30px;
+	
 }
 
 /************** ARTE AMBIENTAL*/
+.galeria_coleccion{
+	text-align: center;
+	margin: auto;
+	width: 80%;
+}
+.col{
+	padding-top: 2%;
+}
 .art_tittle{
 	padding-top: 3%;
 	font-family: "Bungee", sans-serif;
 	-webkit-text-stroke: 1px #000; 
 	font-size: 3.5em;
 	text-shadow: 1px #E0FBE2; 
-	animation: color_Change 2s linear infinite;
+	animation: color_Change 5s linear infinite;
 }
 .arte_invitacion{
 	width: 100%;
@@ -212,9 +226,9 @@ img{
 	padding-top: 3%;
 	font-family: "Bungee", sans-serif;
 	-webkit-text-stroke: 1px #000; 
-	font-size: 3.5em;
+	font-size: 2.5em;
 	text-shadow: 1px #E0FBE2; 
-	animation: color_Change 2s linear infinite;
+	animation: color_Change 5s linear infinite;
 }
 
 .art_ejemplo_participacion{
@@ -222,7 +236,7 @@ img{
 	width: 100%;
 	font-family: "Bungee", sans-serif;
 	-webkit-text-stroke: 1px #000; 
-	font-size: 2.5em;
+	font-size: 1.5em;
 	text-shadow: 1px #E0FBE2; 
 }
 .participacion_intro{
@@ -233,17 +247,18 @@ img{
 	padding-top: 2%;
 }
 .mecanismos_tittle{
+	display: none;
 	padding-top: 3%;
 	font-family: "Bungee", sans-serif;
 	-webkit-text-stroke: 1px #000; 
-	font-size: 2.5em;
+	font-size: 1.5em;
 }
 .mecanismo_n{
 	padding-top: 3%;
 	font-family: "Bungee", sans-serif;
 	-webkit-text-stroke: 1px #000; 
 	text-shadow: 1px #E0FBE2; 
-	animation: color_Change 2s linear infinite;
+	animation: color_Change 5s linear infinite;
 }
 
 .referencia_mecanismo{

@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "react-manrique-ecocreativo",
   "version": "0.1.0",
   "private": true,
@@ -41,5 +42,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "name": "manrique_ecocreativo",
+  "version": "1.0.0",
+  "description": "Reporte Vitual del proyecto final de Sociedad y Ambiente",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JuDa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "lodash": "^4.17.21"
+>>>>>>> ff46cf299126f9b484b45a076ac9540733619ea9
   }
 }

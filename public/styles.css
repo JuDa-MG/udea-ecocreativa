@@ -1,0 +1,297 @@
+/** COLOR PALETTE
+ * 	ACE1AF
+ * 	B0EBB4
+ * 	BFF6C3
+ * 	E0FBE2
+ * **/
+ body{
+    font-family: "Montserrat", sans-serif;
+    background-color: #FFFFFF;
+    position: relative;
+    text-align: center;
+}
+
+body p{
+   text-align: justify;
+}
+
+
+/************ HEADER SECTION ->*/
+.udea{
+   width: 70%;
+   padding: 5px;
+}
+.first_section{
+    height: 100%;
+   width: 100%;
+   
+}
+.header{
+   font-family: "Bungee", sans-serif;
+   -webkit-text-stroke: 0.1em #000; 
+   padding: 5%;
+   color: #000 ;
+
+       
+}
+.ecocreativo{
+   -webkit-text-stroke: 1px #000; 
+   font-size: 2.5em;
+   text-shadow: 1px #E0FBE2; 
+   animation: color_Change 5s linear infinite;
+}
+
+@keyframes color_Change{
+   0% {color: #E0FBE2;}
+   50% {color: #CAF4FF;}
+   80% {color: #E0FBE2;}
+   100%{color:#ACE1AF}
+}
+/********************* DECORACION PAGINA PRINCIPAL */
+.index_divs{
+   color: #000;
+   text-decoration: none;
+}
+.decoration_1{
+   width: 10%;
+   position: absolute;
+   left: 0;
+}
+
+/************ HORIZONTAL RULES STYLING->*/
+hr{
+ width: 100%;
+}
+
+/************ PAGINA PRINCIPAL -> DESCRIPCION DEL PROYECTO*/
+
+
+.proyect_description{
+   margin: auto;
+   letter-spacing: 0.2em;
+   align-content: center;
+   width: 100%;
+}
+
+/************ SECTIONS ->*/
+h3{
+   font-size: 1.5em;
+}
+.galeria{
+   transition: transform 0.5s ease; 
+}
+.galeria:hover{
+
+   border-radius: 5%;
+padding:2%;
+   transform: scale(1.5, 1.5);
+   background-color:#E0FBE2; 
+
+}
+.educacion{
+   transition: transform 0.5s ease; 
+}
+.educacion:hover{
+   border-radius: 5%;
+padding:2%;
+   transform: scale(1.5, 1.5);
+   background-color:#CAF4FF; 
+}
+
+.talleres{
+   transition: transform 0.5s ease; 
+}
+.talleres:hover{
+   padding:2%;
+   border-radius: 5%;
+   transform: scale(1.5, 1.5);
+   background-color:#ACE1AF; 
+}
+
+.participacion{
+   transition: transform 0.5s ease;
+}
+.participacion:hover{
+   padding:2%;
+   border-radius: 5%;
+   transform: scale(1.5, 1.5);
+   background-color:#E49BFF; 
+}
+/*************** CREDITOS*/
+
+
+
+.inst_credits{
+   color: gray;
+   text-decoration: none;
+}
+.inst_credits:hover{
+   color:#ACE1AF ;
+}
+
+/* EDUCACION AMBIENTAL -> CONCEPTOS */
+
+.header_educacion_ambiental{
+   align-items: center;
+}
+
+.educacion_ambiental_intro{
+   letter-spacing: 0.2em;
+   margin: auto auto 77px auto;
+   width: 100%;
+   font-size: 2.5vh;
+}
+
+.educacion_ambiental_tittle{
+   padding: 0.5em 0.5em 0.5em 0.5em;
+   font-family: "Bungee", sans-serif;
+   -webkit-text-stroke: 1px #000; 
+   font-size: 3.5em;
+   text-shadow: 1px #E0FBE2; 
+   animation: color_Change 5s linear infinite;
+}
+.concepto{
+   padding-top: 2%;
+   font-size: 1.5em;
+   font-family: "Bungee", sans-serif;
+   -webkit-text-stroke: 1px #000; 
+   text-shadow: 1px #E0FBE2; 
+   animation: color_Change 5s linear infinite;
+}
+.conceptos_section{
+   font-size: 2.5vh;
+}
+.index_text_ajust{
+   font-size: 2.5vh;
+   letter-spacing: 0.2em;
+   margin: 2% auto 2% auto;
+   padding-top: 2%;
+   text-align: justify;
+}
+h2{
+   font-family: "Bungee", sans-serif;
+}
+img{
+   width: 25%;
+   border-radius: 3px;
+}
+
+.conceptos_title{
+   font-family: "Bungee", sans-serif;
+}
+.concepts_section p{
+   text-align: justify;
+}
+.concepto_descripcion{
+   width: 100%;
+   padding-top: 30px;
+   margin-bottom: 30px;
+   
+}
+
+/************** ARTE AMBIENTAL*/
+.galeria_coleccion{
+   transition: transform 0.3s ease-in-out;
+}
+
+.galeria_coleccion:hover{
+   transform: scale(1.05);
+}
+.col{
+   padding-top: 2%;
+}
+.art_tittle{
+   padding-top: 3%;
+   font-family: "Bungee", sans-serif;
+   -webkit-text-stroke: 1px #000; 
+   font-size: 3.5em;
+   text-shadow: 1px #E0FBE2; 
+   animation: color_Change 5s linear infinite;
+}
+.arte_invitacion{
+   width: 100%;
+   font-size: 2.5vh;
+   letter-spacing: 0.2em;
+   margin: auto;
+   padding-top: 2%;
+}
+.row{
+   margin: 1em;
+}
+
+.deco_arte_ambiental{
+   position: absolute;
+   width: 10%;
+   right: 1%;
+   top:1%
+}
+
+/************** TALLER*/
+.fases{
+   width: 100%;
+   align-items: center;
+   text-align: center;
+   padding:0.5em 0 1.5em 0;
+}
+
+.fases_section{
+  text-align: left;
+}
+
+
+/************** PARTICIPACION CIUDADANA*/
+
+.art_participacion{
+   padding-top: 3%;
+   font-family: "Bungee", sans-serif;
+   -webkit-text-stroke: 1px #000; 
+   font-size: 2.5em;
+   text-shadow: 1px #E0FBE2; 
+   animation: color_Change 5s linear infinite;
+}
+
+.art_ejemplo_participacion{
+   margin:2% auto 2% auto;
+   width: 100%;
+   font-family: "Bungee", sans-serif;
+   -webkit-text-stroke: 1px #000; 
+   font-size: 1.5em;
+   text-shadow: 1px #E0FBE2; 
+}
+.participacion_intro{
+   width: 100%;
+   font-size: 2.5vh;
+   letter-spacing: 0.2em;
+   margin: auto;
+   padding-top: 2%;
+}
+.mecanismos_tittle{
+   display: none;
+   padding-top: 3%;
+   font-family: "Bungee", sans-serif;
+   -webkit-text-stroke: 1px #000; 
+   font-size: 1.5em;
+}
+.mecanismo_n{
+   padding-top: 3%;
+   font-family: "Bungee", sans-serif;
+   -webkit-text-stroke: 1px #000; 
+   text-shadow: 1px #E0FBE2; 
+   animation: color_Change 5s linear infinite;
+}
+
+.referencia_mecanismo{
+   font-size: 1.5em;
+   text-decoration: none;
+   color: #000;
+}
+.referencia_mecanismo:hover{
+   text-decoration: none;
+   color:#ACE1AF ;
+}
+
+.descripcion_mecanismo{
+   margin: 2% auto 2% auto;
+   width: 100%;
+   font-size: 2.5vh;
+}
